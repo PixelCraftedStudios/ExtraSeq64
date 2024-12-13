@@ -1,14 +1,19 @@
 # ![](https://i.imgur.com/CeOukzk.gif) HackerSM64 ![](https://i.imgur.com/s0LUbTo.gif)
 
+# ![](https://i.imgur.com/CeOukzk.gif) ExtraSeq64 ![](https://i.imgur.com/s0LUbTo.gif)
+
 **AFTER CLONING THE REPO, CHECK OUT THE `include/config` FOLDER BEFORE ANYTHING ELSE! THERE'S A LOT OF STUFF IN THIS REPO THAT CAN BE TOGGLED THERE.**
 
 HackerSM64 now has a discord server! https://discord.gg/brETAakcXr
 
-This repo requires BOTH a US ROM and a JP ROM in order to build. Place baserom.us.z64 in the repo as usual and ALSO include baserom.jp.z64.
+This repo requires either a US ROM or a JP ROM in order to build. Place baserom.us.z64 in the repo as usual or include baserom.jp.z64.
 
 This repo needs gcc in order to be able to build it. To install it, run `sudo apt install gcc-mips-linux-gnu`
 
 This is a fork of the ultrasm64 repo by CrashOveride which includes the following commonly used patches (patches marked with `*` are toggleable in the config files):
+
+**New Tracks So Far:**
+- Piranha Plant Pond - **Super Mario Star Road** *
 
 **Credits**
 - **ArcticJaguar725**: Most audio configuration and layout changes, colored ia4 text, floombas, various bugfixes, and more
@@ -17,7 +22,7 @@ This is a fork of the ultrasm64 repo by CrashOveride which includes the followin
 - **MrComit**: General use object defines, JUMP_KICK_FIX
 - **aglab2**: Bugfixes (particularly puppycam), refactor stuff
 - **someone2639**: math.s and crash screen disam, stack trace, map packing, shiftable segments 2, S2DEX engine
-- **Arthurtilly**: Platform Displacement 2
+- **Arthurtilly**: Platform Displacement 2, Music Manager
 - **Fazana**: PuppyLib, ucode swapping, audio load time optimisations (with Arctic), general hacker qol improvements, visual debug
 - **Reonu**: Starting the project/repo, widescreen, reonucam, various defines for hacker QoL
 - **JoshDuMan**: Decomp guy, general assistance
